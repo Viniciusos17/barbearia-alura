@@ -1,0 +1,132 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #C79C19;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0; /* pra cima e pra baixo; zero os lados */
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; /* Pra baixo */
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0; /* pra cima e pra baixo; zero os lados */
+}
+
+.enviar {
+    width:40%;
+    padding:15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px; /* Pra cima e para baixo */
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px
+}
+
+.roda-pe {
+    background-image: url(img/bg.jpg)
+}
+
+@media screen and (max-width: 480px) {
+    .caixa  {
+        width: auto; 
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    nav {
+        position:static;
+    }
+    .roda-pe {
+        margin-top: em;
+}
+    main, footer {
+        width: auto; 
+    }
+    label, fieldset, table {
+        padding-top: 1px;
+    }
+} 
